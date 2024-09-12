@@ -12,7 +12,7 @@
     text-transform: uppercase;
     text-decoration: none;
     line-height: 1.17;
-    letter-spacing: 0.003em;
+    letter-spacing: 0.03em;
 }
 
 .page-header .navigation .link .studio {
@@ -39,12 +39,15 @@
     color:#404BBF;
 }
 
+address {
+    font-style: normal;
+}
+
 .page-header .contact .link {
     color:#434455;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    font-style: normal;
     text-decoration: none;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -64,72 +67,120 @@
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 2%;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
-.page-main .section-one > button {
+.page-main .section-one .button {
     background-color:#4D5AE5;
     color:#FFFFFF;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
-.page-main .section-one > button:hover,
-.page-main .section-one > button:focus {
+.page-main .section-one .button:hover,
+.page-main .section-one .button:focus {
     background-color:#404BBF;
     color: #FFFFFF;
 }
 
-.page-main .section-two {
-    color:#2E2F42;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 2%;
-}
-
-.page-main .section-three {
-    background-color:#F4F4FD;
-    color:#2E2F42;
-    font-family: "Roboto", sans-serif;
-    font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 2%;
-    text-align: center;
-}
-
-.page-main .section-four .our-portfolio {
+.page-main .section-two .title {
     color:#2E2F42;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
-.page-main .section-four > h3{
+.page-main .section-two .section-title {
     color:#2E2F42;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 2%;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
-.page-main .section-four > p {
+.page-main .section-two .text {
     color:#434455;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+}
+
+.page-main .section-three {
+    background-color:#F4F4FD;
+}
+
+.page-main .section-three .title {
+    color:#2E2F42;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.page-main .section-three .item {
+    background-color: #FFFFFF;
+}
+
+.page-main .section-three .section-title {
+    color:#2e2f42;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.page-main .section-three .text {
+    color:#434455;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.page-main .section-four .title {
+    color:#2E2F42;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.page-main .section-four .section-title{
+    color:#2E2F42;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.page-main .section-four .text {
+    color:#434455;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .page-footer {
@@ -143,8 +194,8 @@
     font-size: 18px;
     text-decoration: none;
     text-transform: uppercase;
-    line-height: 21px;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .page-footer .link .studio {
@@ -157,7 +208,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 ul {
